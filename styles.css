@@ -75,24 +75,6 @@ body{
 }
 
 
-.title2{
-    position: relative;
- display: flex;
- flex-direction: row;
- padding: 50px;
-  width: 300px;
-  -webkit-text-stroke: 1px #000000;
-  font-family: "Goblin One", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 1.5rem;
-  text-align:justify;
-  justify-content: flex-start;
-  align-content: center;
-  border: 5px solid black;
-  margin:5px;
-}
-
 
 .navigation{
     width:500px;
@@ -100,6 +82,9 @@ body{
     display:inline-block;
     flex-direction: row;
     justify-content: space-between;
+    position: absolute;
+    bottom: 40%;   
+    left:50%;
 }
 
 .navigation a{
@@ -112,20 +97,65 @@ body{
 	color: black;
 	border-radius: 15px;
     transform: translate(300px,85px);
+
 }
 
 
 
 .footer{
     width:100%;
-	height:100px;
+	height: 90px;
 	background: #5FBF86;
-	display: flex;
-	align-items: baseline;
-	position: absolute;
+	display:inline-block;
+	position:absolute;
     bottom: 0;
 	padding: 5px;
     
+}
+
+.ftext{
+    width: 42.8125rem;
+    height: 4.625rem;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: justify;
+    margin-right: 3px;
+
+}
+
+.comsoclogo{
+    width: 5.125rem;
+    height: 4.5625rem;
+    flex-shrink: 0;
+    border-radius: 5.125rem;
+    position: absolute;
+    left:78%;
+    top:5px;
+}
+
+.button{
+    position: absolute;
+    width: 10.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    top:25px;
+    border: 0.5px solid black;
+    left: 85%;
+    color: #3C3636;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background:#DEE2FC;
+    border-radius: 2.9375rem;
+    padding: 2px;
 }
 
 
